@@ -1,0 +1,896 @@
+body{
+  background-color: #e3f2fd;
+}
+
+/* Header Section */
+
+.navbar{
+  overflow: hidden;
+  background-color: #bbdefb;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  background-color: #0d47a1;
+  color: black;
+  cursor: pointer;
+}
+
+.navbar a.active {
+  background-color: #0d47a1;
+  color: #0d47a1;
+}
+
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #e3f2fd;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 100px;
+  margin-right: 2spx;
+}
+
+.navbar-brand span {
+  font-size: 20px;
+  font-weight: 700;
+  font-weight: bold;
+  font-family: 'Bebas Neue';
+  color: black;
+  margin-top: 5px;
+  background-color: #bbdefb;
+}
+
+button {
+  width: 120px;
+  height: 35px;
+  background-color: #bbdefb;
+  opacity: 10;
+  border: 0;
+  font-weight:200;
+  color: #0d47a1;
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.iconDetails {
+  margin-left:10%;
+  float:left; 
+  height:40px;
+  width:40px; 
+  flex-basis: 40%;
+  background-color: #bbdefb;
+ } 
+ 
+ .headercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .navbarcustom {
+  margin-left: 10%;
+ }
+
+ .title {
+  color: #0d47a1;
+  font-size: 25px;
+  padding-left: 150px;
+  padding-right: 20px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  background-color: #bbdefb;
+ }
+
+/* Ad Banner */
+
+.ad_banner {
+  width: 100%;
+  height: 500px;
+  background: url(../Extras/Ad\ Banner\ Pic.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ad_banner h2 {
+  font-family: 'Bebas Neue';
+  font-size: 125px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Welcome Section */
+
+.welcomebox{
+  margin: 25px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 17px;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s; 
+  background: #bbdefb;
+}
+
+.welcomebox:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+.welcomemain{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.welcomemain h3{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 25px;
+  }
+
+/* Home Section */
+
+.productsmain{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.gadgets{
+  width: 500px;
+  height: 370px;
+  margin: 25px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 17px;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s; 
+  background: #bbdefb;
+}
+
+.gadgets:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+img{
+  text-align: center;
+  margin: 0 auto;
+  display:block;
+}
+
+.buybutton{
+  text-align: center;
+  font-size: 35px;
+  font-family:'Copperplate Gothic';
+  font-weight: bold;
+  color:#fff;
+  width: 100%;
+  padding-bottom: 40px;
+  border:0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #0d47a1;
+  color: rgb(255, 255, 255);
+}
+
+/* About Us Section */
+
+.service{
+    background: #e3f2fd;
+    width:100%;
+    padding: 5px 0px;
+}
+.title2 h2{
+    color: #0d47a1;
+    background-color: #e3f2fd;
+    font-family:'Copperplate Gothic';
+    font-size: 75px;
+    width:1130px;
+    margin:30px auto;
+    text-align: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:400px;
+}
+.card{
+    height:370px;
+    width: 350px;
+    padding:20px 35px;
+    background-color: #e3f2fd;
+    background:#bbdefb;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow:auto;
+    text-align: center;
+    align-items: center;
+}
+
+.card h5{
+    font-family:'Copperplate Gothic';
+    color:#0d47a1;
+    font-size:23px;
+    margin-bottom:15px;
+}
+.paragraph p{
+    color:rgb(0, 0, 0);
+    font-family: 'Lucida Console';
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+/* Product Section */
+.productsmain h3{
+font-family: monospace;
+font-weight: bold;
+font-size: 25px;
+}
+
+.backbutton {
+  width: 120px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  
+}
+
+.backbutton:hover {
+  background-color: #0d47a1;
+  color: #bbdefb;
+  cursor: pointer;
+}
+
+.topbutton {
+  width: 120px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  float: right;
+}
+
+.topbutton:hover {
+  background-color: #0d47a1;
+  color: #bbdefb;
+  cursor: pointer;
+}
+
+.productcontainer{
+  width:100%;
+  margin: 0 auto;
+}
+.producttitle{
+  color: #0d47a1;
+  background-color: #e3f2fd;
+  font-family:'Copperplate Gothic';
+  font-size: 75px;
+  width:1130px;
+  margin:30px auto;
+  text-align: center;
+}
+
+.productName{
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.products{
+  background: var(--alice-blue);
+  padding: 3.2rem 0;
+}
+
+.product{
+  margin: 2rem;
+  position: relative;
+}
+.product-content{
+  background: var(--grey);
+  padding: 3rem 0.5rem 2rem 0.5rem;
+  cursor: pointer;
+}
+.product-img{
+  background: var(--white-light);
+  box-shadow: 0 0 20px 10px var(--white-light);
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: background 0.5s ease;
+}
+.product-btns{
+  padding-top: 70px;
+  display: flex;
+  justify-content:center;
+  margin-top: 1.4rem;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+.btn-cart, .btn-buy{
+  background: transparent;
+  border: 1px solid black;
+  padding: 0.8rem 0;
+  width:125px;
+  height:50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition:all 0.6s ease;
+}
+.btn-cart{
+  background: #0d47a1;
+  color:#bbdefb;
+}
+.btn-cart:hover{
+  background: var(--carribean-green);
+  color: #0d47a1;
+}
+.btn-buy{
+  background: #bbdefb;
+}
+.btn-buy:hover{
+  background: var(--carribean-green);
+  color: #0d47a1;
+}
+.Price{
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0.6rem;
+}
+
+mark{
+  background-color:#0d47a1;
+  color:#bbdefb;
+}
+.product-info{
+  background: #bbdefb;
+  padding: 2rem;
+}
+
+.product-img img{
+  transition: transform 0.6 ease; 
+}
+.product:hover .product-img img{
+  transform: scale(1.1);
+}
+.product:hover .product-btns{
+  opacity:1;
+}
+
+@media screen and (min-width:992px) {
+  .product-items{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .product-items{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .product{
+      margin-right: 1rem;
+      margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 1336px){
+  .product-items{
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Contact Section */
+
+.service2 p{
+  color: #0d47a1;
+  font-family:'Copperplate Gothic';
+  font-weight:bold ;
+  font-size: 20px;
+  width:1200px;
+  margin:30px auto;
+  text-align: center;
+}
+
+.contactmain{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.contactitems{
+  width: 400px;
+  height: 300px;
+  margin: 15px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 15px;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s; 
+  background: #bbdefb;
+}
+
+.contactitems:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+
+.contact{
+  position: relative;
+  min-height: 50vh;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.contact .content{
+  min-width: 1500px;
+  text-align: center;
+}
+.contact .content h1{
+  font-size: 38px;
+  font-weight: 500;
+  color: #0d47a1;
+  text-shadow: 2px 2px rgb(166, 165, 165);
+  padding-bottom: 10px;
+  font-family:'Copperplate Gothic';
+}
+
+.container {
+  width: 100%;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.contact-form{
+  width:40%;
+  padding: 40px;
+  background: #bbdefb;
+}
+
+.contact-form .inputBox{
+  font-family:'Times New Roman', Times, serif;
+  position: relative;
+  width: 100%;
+  margin-top:10px;
+}
+.contact-form .inputBox input,
+.contact-form .inputBox textarea{
+  width:100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.contact-form .inputBox span{
+  position: absolute;
+  left:0;
+  padding:5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color:#0d47a1;
+}
+.contact-form .inputBox input:focus ~ span,
+.contact-form .inputBox input:valid ~ span,
+.contact-form .inputBox textarea:focus ~ span,
+.contact-form .inputBox textarea:valid ~ span{
+  color: #0d47a1;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.contact-form .inputBox input[type="submit"]{
+  width:100px;
+  background: #0d47a1;
+  color:#fff;
+  border:none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn-send{
+  background: #0d47a1;
+  color:#bbdefb;
+}
+.btn-send:hover{
+  background: var(--carribean-green);
+  color: #0d47a1;
+}
+
+
+/* Footer Section */
+
+.footer_section {
+    background-color: #e3f2fd;
+    padding: 20px 0;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+  }
+  
+  .footer_section p {
+    color: #0d47a1;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .footer_section a {
+    color: #0d47a1;
+  }
+
+.header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+/* Login Section */
+
+  .login-form{
+    width:40%;
+    padding: 40px;
+    background: #bbdefb;
+  }
+  
+  .login-form .inputBox{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    width: 100%;
+    margin-top:10px;
+  }
+  .login-form .inputBox input,
+  .login-form .inputBox textarea{
+    width:100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .login-form .inputBox span{
+    position: absolute;
+    left:0;
+    padding:5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#0d47a1;
+  }
+  .login-form .inputBox input:focus ~ span,
+  .login-form .inputBox input:valid ~ span,
+  .login-form .inputBox textarea:focus ~ span,
+  .login-form .inputBox textarea:valid ~ span{
+    color: #0d47a1;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  .login-form .inputBox input[type="submit"]{
+    width:100px;
+    background: #0d47a1;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  /* SignUp Section*/
+
+  .signup-form{
+    width:40%;
+    padding: 40px;
+    background: #bbdefb;
+  }
+  
+  .signup-form .inputBox{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    width: 100%;
+    margin-top:10px;
+  }
+  .signup-form .inputBox input,
+  .signup-form .inputBox textarea{
+    width:100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .signup-form .inputBox span{
+    position: absolute;
+    left:0;
+    padding:5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#0d47a1;
+  }
+  .signup-form .inputBox input:focus ~ span,
+  .signup-form .inputBox input:valid ~ span,
+  .signup-form .inputBox textarea:focus ~ span,
+  .signup-form .inputBox textarea:valid ~ span{
+    color: #0d47a1;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  .signup-form .inputBox input[type="submit"]{
+    width:100px;
+    background: #0d47a1;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+/* Cart Section */
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  font-weight: bold;
+  font-family: 'Bebas Neue'
+}
+
+.cart-page{
+  margin: 80px auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.product-name{
+  margin-right: 90px;
+}
+
+.product-name2{
+  margin-right: 200px;
+}
+
+th{
+  text-align: left;
+  padding: 5px;
+  color: #bbdefb;
+  background: #0d47a1;
+  font-weight: normal;
+}
+
+td{
+  padding: 10px 5px;
+}
+
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a{
+  color: #0d47a1;
+  font-size: 20px;
+}
+
+td img{
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+.total-price{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.total-price table{
+  border-top: 3px solid #0d47a1;
+  width: 100%;
+  max-width: 400px;
+}
+
+td:last-child{
+  text-align: right;
+}
+
+th:last-child{
+  text-align: right;
+}
+
+/* Payment Section */
+
+
+.payment-body{
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbdefb;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Bebas Neue';
+}
+
+.payment-container{
+  width: 750px;
+  height: 550px;
+  border: 10px solid;
+  border-color: #0d47a1;
+  background-color: #bbdefb;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content:space-around;
+}
+
+.payment-container h1{
+  text-align: center;
+}
+
+
+.ownername{
+  width: 100%;
+  margin-right: 40px;
+}
+
+.input-field{
+  border: 1px solid #999;
+}
+
+.input-field input{
+  margin-right: 400px;
+  width: 100%;
+  border:none;
+  outline: none;
+  padding: 10px;
+}
+
+.payment-selection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-selection select{
+  padding: 10px 20px;
+}
+
+.payment-button{
+  background-color: #0d47a1;
+  color: #bbdefb;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.payment-button:hover{
+  background-color: #bbdefb;
+  color:#0d47a1;
+}
+
+.cards img{
+  width: 300px;
+  margin-left: 50px;
+}
+
+/* Thank Section */
+.thank-button{
+  background-color: #0d47a1;
+  color: #bbdefb;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.thank-button:hover{
+  background-color: #bbdefb;
+  color:#0d47a1;
+}

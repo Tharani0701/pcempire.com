@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC EMPIRE (Log In)</title>
+    <link href="../Style CSS/style.css" rel="stylesheet" />
+</head>
+
+<header>    
+    <div class="navbar">
+        <div class="headercontainer"></div>
+            <a class="navbar-brand" href="../Home Page/Home.html">
+                <img src="../Extras/New Logo.png" alt="PC Empire" class="iconDetails" /><span>
+                    <div class = "title" >
+                        <h1>PC EMPIRE</h1>
+                    </div>
+                </span>
+            </a>
+                <section class = "navbarcustom" >
+                    <a id="login" class="active" href="./Login.html"><button class="button"><b>Log In</b></button></a>
+                    <a id="signup" href="../SignUp Page/SignUp.html"><button class="button"><b>Sign Up</b></button></a>
+                </section>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="title2">
+        <h2>Log In Now</h2>
+    </div>
+
+    <div class="container">
+        <div class="login-form">
+            <div id="errorMsg"></div>
+            <div class="content">
+                <form name="loginForm" onsubmit="return validateLoginForm()" method="POST" action="../Home Page/Home.html">
+                    <div class="inputBox">
+                        <input type="text" name="name" id="loginName" placeholder="Username">
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="password" id="loginPassword" placeholder="Password">
+                    </div>
+                    <div id="check">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn-send" value="Login">Log In</button>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <img src="./Pictures/Login.gif" alt="Login">
+            
+    <script src="../JavaScript/Login.js"></script>
+</body>
+</html>
